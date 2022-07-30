@@ -1,0 +1,14 @@
+#home page
+DirectoryIndex  index.html
+
+#error home page
+ErrorDocument 404  /index.html
+
+#Engin on
+Options+MultiViews
+RewriteEngine On
+
+#Extenson Remove
+RewriteCond %{REQUEST-FILENAME} !-D
+RewriteCond %{REQUEST-FILENAME} !-F
+RRewriteRule ^([^\.]+)$ $1.html [NC,L]
