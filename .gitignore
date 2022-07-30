@@ -1,0 +1,40 @@
+#.gitignore
+text.txt
+.env
+*.txt
+*.sqli
+*.sql
+*.ttf
+
+#show
+!main.txt
+!index.html
+!home.html
+!insert.php
+!index.php
+!thankyou.html
+!404.html
+!login.html
+!1.html
+
+#?=1234 all txt ignore
+text?.txt
+
+#folder full ignore
+temp/
+style/
+css/
+code/
+about/
+js/
+java/
+code/
+img/
+main/
+pic/
+folder/
+new/
+
+#all log type folder egnore
+*.log
+dir/
