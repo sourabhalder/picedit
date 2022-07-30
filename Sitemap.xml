@@ -1,0 +1,40 @@
+<xml>
+<XSD:element name="sitemap" type="tsitemap" max0ccurs="unbounded">
+<xsd:annotation>
+<xsd:union>
+<xsd:sequence>
+<xsd:minLength="12" maxLength="2048">
+<xsd:schema targetNamespace="http://savi.rf.gd/site0.9"
+elementFormDefault="qulified">
+<xsd:documentation>savi.rf.gd</xsd:documentation>
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:complextype name='sitemap'>
+<xsd:restriction base="xsd:anyURL>
+<xsd:simpleType name="xsd:datetime">
+<xsd:any namespace="##outher" processContents="strict"/>
+<URLSET XMLNS="HTTPS://SAVI.rf.gd/INDEX.HTML"
+XMLNS:XSI="HTP://SAVI.RF.GD"
+XSI:SCHEMALOCATION="HTTP;//SAVI.rf.gd/SITEMAP.XML">
+
+<!---CREATED WITH OUR DEVOLOPER SOURABHALDER--->
+<url>
+<LOC>SOURABHALDER Website</LOC>
+<LASTMOLD>https://sourabhalder.netlify.app</LASTMOD>
+<LOC>SOURABHALDER facebook</LOC>
+<LASTMOLD>https://m.facebook.com/iamsourabhalder</LASTMOD>
+<LOC>SOURABHALDER fb page</LOC>
+<LASTMOLD>https://m.facebook.com/souabhalder.in</LASTMOD>
+<LOC>SOURABHALDER Instagrame</LOC>
+<LASTMOLD>http://instagrame.com/iamsourabhalder</LASTMOD>
+<LOC>SOURABHALDER Tweet</LOC>
+<LASTMOLD>http://m.TWEETER.COM/IAMSOURABHALDER</LASTMOD>
+<LOC>SOURABHALDER location</LOC>
+<LASTMOLD>http://google.com/map</LASTMOD>
+<LOC>SOURABHALDER Contakus</LOC>
+<LASTMOLD>http://SOURABHALDER.RG.GD</LASTMOD>
+
+</url>
+
+</xsd>
+<A HREF='SAVI.rf.gd'>SAVI</A>
+</xml>

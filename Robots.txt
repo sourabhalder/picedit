@@ -1,0 +1,32 @@
+#robots.txt
+
+User-agent: *
+Disallow: /folder/
+Disallow: /main/
+Disallow: /pic/
+Disallow: /img/
+Disallow: /css/
+Disallow: /style/
+Disallow: /code/
+Disallow: /java/
+Disallow: /js/
+Disallow: /about/
+Disallow: /new/
+Disallow: /folder/
+Disallow: /new folder/
+Disallow: /*.jpg$
+Disallow: /*.gif$
+Disallow: /*.png$
+Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.phy$
+Allow: /index.html
+Allow: index.html
+
+Crawl-delay: 5s
+Sitemap: https://savi.rf.gd/index.html
+Sitemap: https://savi.rf.gd/home.php
+
+Note: this website devolopement by sourabhalder.eu.org
+Caution: Remember,don't used robots.txt , it is a surchengine seo optimaiz configer.
