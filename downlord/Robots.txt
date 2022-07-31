@@ -1,0 +1,89 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: http://www.example.com/sitemap.xml
+# Example 1: Block only Googlebot
+User-agent: Googlebot
+Disallow: /
+
+# Example 2: Block Googlebot and Adsbot
+User-agent: Googlebot
+User-agent: AdsBot-Google
+Disallow: /
+
+# Example 3: Block all crawlers except AdsBot (AdsBot crawlers must be named explicitly)
+User-agent: *
+Disallow: /
+
+Sitemap: https://example.com/sitemap.xml
+Sitemap: http://www.example.com/sitemap.xml
+
+
+User-agent: *
+Disallow: /
+
+Useful rules
+Disallow crawling of the entire website
+Keep in mind that in some situations URLs from the website may still be indexed, even if they haven't been crawled.
+
+Note: This does not match the various AdsBot crawlers, which must be named explicitly.
+
+User-agent: *
+Disallow: /
+Disallow crawling of a directory and its contents
+Append a forward slash to the directory name to disallow crawling of a whole directory.
+
+Caution: Remember, don't use robots.txt to block access to private content; use proper authentication instead. URLs disallowed by the robots.txt file might still be indexed without being crawled, and the robots.txt file can be viewed by anyone, potentially disclosing the location of your private content.
+
+User-agent: *
+Disallow: /calendar/
+Disallow: /junk/
+Disallow: /books/fiction/contemporary/
+
+User-agent: Googlebot-news
+Allow: /
+
+User-agent: *
+Disallow: /
+
+User-agent: Unnecessarybot
+Disallow: /
+
+User-agent: *
+Allow: /
+
+User-agent: *
+Disallow: /useless_file.html
+Disallow: /junk/other_useless_file.html
+
+User-agent: Googlebot-Image
+Disallow: /images/dogs.jpg
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /*.gif$
+
+User-agent: *
+Disallow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Googlebot
+Disallow: /*.xls$
+
+
+all broat name
+Googlebot
+Bingbot.
+Slurp Bot. 
+DuckDuckBot. 
+Baiduspider.
+Yandex Bot.
+Sogou Spider.
+Exabot.
